@@ -1,0 +1,21 @@
+name: llms
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - python-dotenv
+  - requests
+  - numpy
+  - pandas
+  - hf-xet==1.1.9
+  - scipy
+  - pytorch
+  - jupyterlab
+  - ipywidgets
+  - matplotlib
+  - scikit-learn
+  - chromadb
+  - jupyter-dash
+  - pyarrow
